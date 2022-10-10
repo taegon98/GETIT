@@ -10,6 +10,8 @@ import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/attendanceBook';
+import SignUp from './chapter_11/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -54,12 +56,25 @@ root.render(
 );  */
 
 // 챕터9
-root.render(
+/*root.render(
   <React.StrictMode>
     <LandingPage />
   </React.StrictMode>
-); 
+); */
 
+ // 챕터10
+/*root.render(
+  <React.StrictMode>
+    <AttendanceBook />
+  </React.StrictMode>
+);  */
+
+// 챕터11
+root.render(
+  <React.StrictMode>
+    <SignUp />
+  </React.StrictMode>
+);
 
 
 // If you want to start measuring performance in your app, pass a function
