@@ -12,6 +12,9 @@ import ConfirmButton from './chapter_08/ConfirmButton';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/attendanceBook';
 import SignUp from './chapter_11/SignUp';
+import Calculator from './chapter_12/Calculator';
+import Card from './chapter_13/Card';
+import ProfileCard from './chapter_13/ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -70,12 +73,26 @@ root.render(
 );  */
 
 // 챕터11
-root.render(
+/*root.render(
   <React.StrictMode>
     <SignUp />
   </React.StrictMode>
-);
+); */
 
+// 12챕터
+ /*root.render(
+   <React.StrictMode>
+     <Calculator />
+   </React.StrictMode>
+ );*/
+
+
+// 13챕터
+root.render(
+  <React.StrictMode>
+    <ProfileCard />
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
